@@ -1,0 +1,55 @@
+.order{
+    color: red;
+    margin-left: 15px;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.order h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.order h1 span{
+    color: red;
+    margin-left: 15px;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.order h1 span::after{
+   content: '';
+   width: 100%;
+   height:  2px;
+   background: red;
+   display: block;
+   position: relative;
+   bottom: 4px;
+}
+
+.order-section{
+    margin: 20% left;
+}
+#ebadkk{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#kk{
+    background-color: red;
+    color: white;
+    width: 10%;
+   height: 45px;
+      background: #fff;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgb(0,0,0,1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #333;
+        font-size: 600;
+}
